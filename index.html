@@ -3,19 +3,46 @@
     <head>
         <title>My Webpage</title>
         <style> 
+            h1, h2{
+                color: purple
+            }
+
+
             p::selection {
-            color: red;
-            background-color: yellow;
+                color: red;
+                background-color: yellow;
             }
         </style>
 
     </head>
     <body>
-        <p>
-            Welcome to Clover Capital!
-        </p>
-        <img src="logo.jpg" style="max-width:100%;">
+        <h1>
+                <p>
+                Welcome to Clover Capital!
+                <img src="logo.jpg" style="max-width:100%;">
+            </p>
+        </h1>
+        <h2>The World's finest financial consulting firm</h2>
+        <h3>
+                <form>
+                    <p>
+                        Client Login
+                    </p>
+                        <div>
+                            <label for="name"><b>Username</b></label>
+                            <input name="name" type="text" placeholder="Name"> 
+                            <p></p>
+                            
+                            <label for="password"><b>Password</b></label>
+                            <input name="password" type="password" placeholder="Password">
+                        </div>
+                </form>
 
-      
+        </h3>
+        
+           
+       
+       
+
     </body>
 </html>
