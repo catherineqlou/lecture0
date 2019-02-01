@@ -1,48 +1,60 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Webpage</title>
-        <style> 
-            h1, h2{
-                color: purple
+
+<head>
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <style>
+        h1, h2{
+                color: purple;
+                font-family : "Times New Roman", Times, serif;
+                font-weight: bold;
+                text-align: center;
             }
+
+          
 
 
             p::selection {
                 color: red;
                 background-color: yellow;
             }
-        </style>
 
-    </head>
-    <body>
-        <h1>
-                <p>
-                Welcome to Clover Capital!
-                <img src="logo.jpg" style="max-width:100%;">
+       </style>
+
+</head>
+
+<body>
+    <h1>
+
+        Welcome to Clover Capital!
+        <img src="logo.jpg" style="max-width:100%;" width="50" height="50">
+
+    </h1>
+    <h2>World's Finest Financial Consulting Firm</h2>
+    <h3>
+        <form>
+            <p>
+                Client Login
             </p>
-        </h1>
-        <h2>The World's finest financial consulting firm</h2>
-        <h3>
-                <form>
-                    <p>
-                        Client Login
-                    </p>
-                        <div>
-                            <label for="name"><b>Username</b></label>
-                            <input name="name" type="text" placeholder="Name"> 
-                            <p></p>
-                            
-                            <label for="password"><b>Password</b></label>
-                            <input name="password" type="password" placeholder="Password">
-                        </div>
-                </form>
+            <div>
+                <label for="name"><b>Username</b></label>
+                <input name="name" type="text" placeholder="Name">
+                <p></p>
 
-        </h3>
-        
-           
-       
-       
+                <label for="password"><b>Password</b></label>
+                <input name="password" type="password" placeholder="Password">
+            </div>
+        </form>
 
-    </body>
+    </h3>
+
+
+
+
+
+</body>
+
 </html>
